@@ -1,8 +1,8 @@
 # DeleteWalls Sample (Desktop Version)
 
-[![.net](https://img.shields.io/badge/.net-4.7|4.8-green.svg)](http://www.microsoft.com/en-us/download/details.aspx?id=30653)
-[![visual studio](https://img.shields.io/badge/Visual%20Studio-2017|2019-green.svg)](https://www.visualstudio.com/)
-[![revit](https://img.shields.io/badge/revit-2018|2019|2020|2021-red.svg)](https://www.autodesk.com/products/revit/overview/)
+[![.net](https://img.shields.io/badge/.net-4.8-green.svg)](http://www.microsoft.com/en-us/download/details.aspx?id=30653)
+[![visual studio](https://img.shields.io/badge/Visual%20Studio-2022-green.svg)](https://www.visualstudio.com/)
+[![revit](https://img.shields.io/badge/revit-2024-red.svg)](https://www.autodesk.com/products/revit/overview/)
 
 ## Description
 
@@ -16,7 +16,7 @@ This sample references Revit 2021's `RevitAPI.dll` and `RevitAPIUI.dll`.
 
 ## Building DeleteWalls.sln
 
-Find `RevitAPI.dll` and `RevitAPIUI.dll` in your Revit 2021 install location and note its location. 
+Find `RevitAPI.dll` and `RevitAPIUI.dll` in your Revit 2024 install location and note its location. 
 
 Clone this repository and open `DeleteWalls.sln` in Visual Studio.  
 
@@ -28,7 +28,7 @@ __Note: Although the project will be always migrated to latest release of Revit,
 
 ## Using DeleteWalls
 
-Find `DeleteWalls.addin` and place in the Revit Addins folder (`C:\ProgramData\Autodesk\Revit\Addins\201*\` for Windows 7, 8, and 10).
+Find `DeleteWalls.addin` and place in the Revit Addins folder (`C:\ProgramData\Autodesk\Revit\Addins\2024\` for Windows 10.
 
 Edit the .addin file and edit the `<Assembly>` value to point to the location of `Autodesk.DeleteWalls.Command.dll`.
 
